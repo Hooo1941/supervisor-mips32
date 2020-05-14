@@ -63,6 +63,7 @@ $(OBJDIR):
 
 kernel.bin: $(TARGET)
 	@$(GCCPREFIX)objcopy -j .text -O binary -v $< kernel.bin
+	@$(GCCPREFIX)objdump -lD $< > kernel.s
 
 show-utest: $(TARGET)
 	@$(GCCPREFIX)objdump -D $< | grep "^[0-9a-f]\{8\} <UTEST_" | grep -n --color=auto 'UTEST_'
