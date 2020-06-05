@@ -1,6 +1,6 @@
 # supervisor-32： 32位监控程序
 
-[![Build Status](https://travis-ci.org/z4yx/supervisor-mips32.svg?branch=master)](https://travis-ci.org/z4yx/supervisor-mips32)
+[查看最新版本](https://github.com/z4yx/supervisor-mips32/)
 
 ## 介绍
 
